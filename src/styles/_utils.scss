@@ -1,0 +1,8 @@
+@use "./variables";
+
+@mixin box(
+  $padding-vertical: variables.$padding-vertical,
+  $padding-horizontal: variables.$padding-horizontal
+) {
+  padding: $padding-vertical $padding-horizontal;
+}
